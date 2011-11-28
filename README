@@ -1,0 +1,20 @@
+
+Implementation of Viterbi algorithm in perl
+
+Instructions:
+perl Viterbi.pl trainingfile testfile outputfile
+Example:
+perl Viterbi.pl treebank.5290.train treebank.5290.test treebankoutput
+Output:
+Started Training
+calling start probabilities
+calling trans probabilities
+Finished Training
+Starting Testing
+ Takes approximately few minutes for running on sentences
+ Wait..
+Finished tagging
+Writing Output to file treebankoutput
+Accuracy=90.317713136055%
+
+
